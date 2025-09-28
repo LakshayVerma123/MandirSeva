@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+Project: Temple Flow Watch Admin Dashboard
+Project Info
+This project is an admin dashboard for Temple Flow Watch.
 
-## Project info
+The dashboard is built with:
 
-**URL**: https://lovable.dev/projects/7b9c0d92-c4fc-4ca9-b78f-14b3ea83dab1
+Vite (build tool)
 
-## How can I edit this code?
+TypeScript (typed JavaScript)
 
-There are several ways of editing your application.
+React (frontend framework)
 
-**Use Lovable**
+shadcn-ui (UI component library)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7b9c0d92-c4fc-4ca9-b78f-14b3ea83dab1) and start prompting.
+Tailwind CSS (utility-first CSS framework)
 
-Changes made via Lovable will be committed automatically to this repo.
+How to Edit the Code
+You can edit the code in several ways:
 
-**Use your preferred IDE**
+Use Your Preferred IDE Locally
+Clone the repository using the Git URL:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+bash
 git clone <YOUR_GIT_URL>
+Navigate to the project directory:
 
-# Step 2: Navigate to the project directory.
+bash
 cd <YOUR_PROJECT_NAME>
+Install dependencies:
 
-# Step 3: Install the necessary dependencies.
-npm i
+bash
+npm install
+Start the development server with auto-reloading and live preview:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
 npm run dev
-```
+Edit Files Directly on GitHub
+Navigate to the desired file in the repository.
 
-**Edit a file directly in GitHub**
+Click the "Edit" button (pencil icon) on the file view.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Make changes and commit them directly on GitHub.
 
-**Use GitHub Codespaces**
+Use GitHub Codespaces (Optional)
+Go to the repository's main page.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click the "Code" button.
 
-## What technologies are used for this project?
+Select the "Codespaces" tab and create a new codespace.
 
-This project is built with:
+Edit files in the cloud environment and commit your changes.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+How to Deploy This Project
+Publish your project using your preferred hosting provider or CI/CD workflow compatible with Vite and React.
 
-## How can I deploy this project?
+Custom Domain
+You can connect a custom domain to this project.
 
-Simply open [Lovable](https://lovable.dev/projects/7b9c0d92-c4fc-4ca9-b78f-14b3ea83dab1) and click on Share -> Publish.
+To configure the domain, go to your project settings and add your desired domain.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
+Follow the necessary DNS setup as per your domain provider's instructions.
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
